@@ -2,6 +2,7 @@ import pandas as pd
 import numpy as np
 from math import *
 from os import system
+from art import *
 
 # data preparation
 
@@ -49,7 +50,9 @@ if __name__ == "__main__":
     # TODO: pygame key detection integration
     _ = system('cls')
 
-    print('toler.py 2021 v0.1\nInsert \'q\' followed by <ENTER> to exit\n')
+    print('toler.py 2021 v0.1\nInsert \'q\' followed by <ENTER> to exit, or CTRL+C\n')
+
+    print(text2art("TOLER.PY"))
 
     # program loop
     while(1):
